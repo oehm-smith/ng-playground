@@ -27,7 +27,8 @@ export class ChildListComponent implements OnInit {
             id: Math.floor(Math.random() * 100),
             childField1: '',
             childField2: '',
-            childHiddenField1: ''
+            childHiddenField1: '',
+          customField: ''
         };
 
         this.children.push(child);
