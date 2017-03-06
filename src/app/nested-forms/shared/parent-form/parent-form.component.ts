@@ -54,11 +54,13 @@ export class ParentFormComponent implements OnInit, AfterViewInit {
                 childField1: 'Child 1 - Child Field 1 Value',
                 childField2: 'Child 1 - Child Field 2 Value',
                 childHiddenField1: 'Child 1 - Child Hidden Field 1 Value',
+                customField: 'customField 1'
             }, {
                 id: 2,
                 childField1: 'Child 2 - Child Field 1 Value',
                 childField2: 'Child 2 - Child Field 2 Value',
                 childHiddenField1: 'Child 2 - Child Hidden Field 1 Value',
+                customField: 'customField 2'
             }]
         };
     }

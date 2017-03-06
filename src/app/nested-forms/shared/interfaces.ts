@@ -10,4 +10,5 @@ export interface ChildData {
     childField1: string;
     childField2: string;
     childHiddenField1: string;
+    customField: string;
 };

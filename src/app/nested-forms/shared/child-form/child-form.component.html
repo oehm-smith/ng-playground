@@ -3,12 +3,17 @@
 
     <div>
         <label for="childField1">Child Field 1</label>
-        <input formControlName="childField1" />
+        <input formControlName="childField1" [(ngModel)]="child.childField1"/>
     </div>
 
     <div>
-        <label for="childField1">Child Field 2</label>
-        <input formControlName="childField2" />
+        <label for="childField2">Child Field 2</label>
+        <input formControlName="childField2" [(ngModel)]="child.childField2" />
     </div>
+
+  <div>
+    <label for="customField">Custom Input</label>
+    <text-input formControlName="customField" [(ngModel)]="child.customField"></text-input>
+  </div>
 
 </div>

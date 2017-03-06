@@ -28,9 +28,10 @@ export class ChildFormComponent implements OnInit {
     private toFormGroup(data: ChildData) {
         const formGroup = this.fb.group({
             id: [ data.id ],
-            childField1: [ data.childField1 || '', Validators.required ],
-            childField2: [ data.childField2 || '', Validators.required ],
-            childHiddenField1: [ data.childHiddenField1 ]
+            childField1: [ '', Validators.required ],
+            childField2: [ '', Validators.required ],
+            customField: [ '', Validators.required ],
+            childHiddenField1: [ '' ]
         });
 
         return formGroup;

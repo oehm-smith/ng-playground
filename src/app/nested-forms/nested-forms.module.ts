@@ -7,6 +7,7 @@ import { NestedFormComponent } from './nested-form/nested-form.component';
 import { ParentFormComponent } from './shared/parent-form/parent-form.component';
 import { ChildFormComponent } from './shared/child-form/child-form.component';
 import { ChildListComponent } from './shared/child-list/child-list.component';
+import { TextInputComponent } from './shared/custom/text-input.component';
 
 @NgModule({
     imports: [
@@ -19,7 +20,8 @@ import { ChildListComponent } from './shared/child-list/child-list.component';
         NestedFormComponent,
         ParentFormComponent,
         ChildFormComponent,
-        ChildListComponent
+        ChildListComponent,
+        TextInputComponent
     ]
 })
 export class NestedFormsModule { }
