@@ -11,7 +11,7 @@ import {
 
 import * as _ from 'lodash';
 
-import { ParentData } from '../interfaces';
+import {ParentData} from '../interfaces';
 
 
 @Component({
@@ -61,7 +61,12 @@ export class ParentFormComponent implements OnInit, AfterViewInit {
                 childField2: 'Child 2 - Child Field 2 Value',
                 childHiddenField1: 'Child 2 - Child Hidden Field 1 Value',
                 customField: 'customField 2'
-            }]
+            }],
+            extraData: {
+                role: 'wizard',
+                level: 7,
+                name: 'morlock'
+            }
         };
     }
 

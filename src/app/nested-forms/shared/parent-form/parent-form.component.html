@@ -21,6 +21,11 @@
         [children]="parentData.children">
     </app-child-list>
 
+    <extra-data
+      [parentForm]="parentForm"
+      [extraData]="parentData.extraData">
+    </extra-data>
+
     <button type="submit" [disabled]="!parentForm.valid">
         Submit
     </button>

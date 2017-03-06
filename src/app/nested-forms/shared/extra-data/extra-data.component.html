@@ -1,0 +1,19 @@
+<div class="extra-data-form"
+     [formGroup]="extraDataForm">
+
+  <div>
+    <label for="name">name</label>
+    <input formControlName="name" [(ngModel)]="extraData.name"/>
+  </div>
+
+  <div>
+    <label for="level">level</label>
+    <input formControlName="level" [(ngModel)]="extraData.level" />
+  </div>
+
+  <div>
+    <label for="role">role</label>
+    <text-input formControlName="role" [(ngModel)]="extraData.role"></text-input>
+  </div>
+
+</div>

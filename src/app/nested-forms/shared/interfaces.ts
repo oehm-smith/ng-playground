@@ -3,6 +3,7 @@ export interface ParentData {
     parentField2: string;
     parentHiddenField1: string;
     children: ChildData[];
+    extraData: ExtraData;
 };
 
 export interface ChildData {
@@ -12,3 +13,9 @@ export interface ChildData {
     childHiddenField1: string;
     customField: string;
 };
+
+export interface ExtraData {
+  role: string;
+  level: number;
+  name: string;
+}
