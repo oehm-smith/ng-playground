@@ -7,22 +7,22 @@ import { NestedFormComponent } from './nested-form/nested-form.component';
 import { ParentFormComponent } from './shared/parent-form/parent-form.component';
 import { ChildFormComponent } from './shared/child-form/child-form.component';
 import { ChildListComponent } from './shared/child-list/child-list.component';
-import { TextInputComponent } from './shared/custom/text-input.component';
 import { ExtraDataComponent } from './shared/extra-data/extra-data.component';
+import { SiteInfoModule } from './shared/gnss/site-info.module';
 
 @NgModule({
     imports: [
         CommonModule,
         FormsModule,
         ReactiveFormsModule,
-        NestedFormsRoutingModule
+        NestedFormsRoutingModule,
+        SiteInfoModule
     ],
     declarations: [
         NestedFormComponent,
         ParentFormComponent,
         ChildFormComponent,
         ChildListComponent,
-        TextInputComponent,
         ExtraDataComponent
     ]
 })

@@ -1,0 +1,12 @@
+<div class="container centered clear-pad">
+  <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12 pad-sm">
+    <form [formGroup]="siteInfoForm" (ngSubmit)="save(siteInfoForm)" class="form-horizontal">
+        <div class="form-group">
+          <frequency-standard-group [siteInfoForm]="siteInfoForm"
+                                    [siteLogModel]="siteLogModel"
+                                    [originalSiteLogModel]="siteLogOrigin"></frequency-standard-group>
+        </div>
+    </form>
+  </div>
+</div>
+
